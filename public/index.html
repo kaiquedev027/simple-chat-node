@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Chat</title>
+    <link rel="stylesheet" href="./index.css">
+    
+</head>
+<body>
+    
+    <form id="chat">
+        <legend>Simple Chat</legend> <br>
+        <input type="text" id="usuario" placeholder="Digite seu usuário">
+
+        <div id="mensagens-gerais" class="messages">
+
+            
+        </div>
+
+        <textarea type="text" id="mensagem-usuario" placeholder="Digite sua mensagem aqui ..."></textarea>
+       
+        <button id="btn-enviar" type="button">Enviar</button>
+    </form>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>   
+<script src="./index.js"></script>
+</body>
+</html>
